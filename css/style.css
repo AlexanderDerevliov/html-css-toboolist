@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    
 }
 
@@ -10,7 +11,7 @@
 
 body {
     background-color: rgb(231, 245, 245);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 /* HEADER IMG-LOGO */
@@ -51,20 +52,18 @@ nav {
 #button1 {
     background-color: rgb(74, 88, 238);
     color: white;
-    height: 25px;
+    line-height: 25px;
     width: 100px;
     border-radius: 5px;
-    vertical-align: middle;
     border-style: none;
 }
 
 #button2 {
     background-color: white;
     color: black;
-    height: 25px;
+    line-height: 25px;
     width: 100px;
     border-radius: 5px;
-    vertical-align: middle;
     border: 2px solid lightgray;
 }
 
@@ -101,7 +100,7 @@ nav {
 }
 
 
-/* STYLE BUTTON SIDE */
+/* STYLE BUTTON RIGHT-SIDE */
 
 .editional {
     background-color: rgb(61, 74, 212);
